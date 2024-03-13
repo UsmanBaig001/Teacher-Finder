@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all ease-in-out 0.2s;
+    scroll-behavior: smooth;
+  }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  :root {
+    --dblue: #040d29;
+    --red: #eb2c27;
+  }
+  ::selection {
+    color: red;
+    background: yellow;
+  }
+  .link{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .NavNav{
+    color: #eb2c27;
+  }
